@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.4070" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-10-12T10:39:26" tests="0" file="cypress\e2e\Features\Login.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2022-10-12T10:39:26" tests="4" time="17.4070" failures="3">
+    <testcase name="Login Login Adactin webpage with valid username and valid password" time="17.4070" classname="Login Adactin webpage with valid username and valid password">
+    </testcase>
+    <testcase name="Login Login Adactin webpage with invalid username and valid password" time="0.0000" classname="Login Adactin webpage with invalid username and valid password">
+      <failure message="data is not defined" type="ReferenceError"><![CDATA[ReferenceError: data is not defined
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9821:24)
+    at Registry.runStepDefininition (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:8325:48)
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9125:48)]]></failure>
+    </testcase>
+    <testcase name="Login Login Adactin webpage with valid username and invalid password" time="0.0000" classname="Login Adactin webpage with valid username and invalid password">
+      <failure message="Timed out retrying after 4000ms: expected &apos;Adactin.com - Hotel Reservation System&apos; to equal &apos;Adactin.com - Search Hotel&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'Adactin.com - Hotel Reservation System' to equal 'Adactin.com - Search Hotel'
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9825:22)
+    at Registry.runStepDefininition (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:8325:48)
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9125:48)]]></failure>
+    </testcase>
+    <testcase name="Login Login Adactin webpage with invalid username and invalid password" time="0.0000" classname="Login Adactin webpage with invalid username and invalid password">
+      <failure message="Timed out retrying after 4000ms: expected &apos;Adactin.com - Hotel Reservation System&apos; to equal &apos;Adactin.com - Search Hotel&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'Adactin.com - Hotel Reservation System' to equal 'Adactin.com - Search Hotel'
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9825:22)
+    at Registry.runStepDefininition (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:8325:48)
+    at Context.eval (https://adactinhotelapp.com/__cypress/tests?p=cypress\e2e\Features\Login.feature:9125:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

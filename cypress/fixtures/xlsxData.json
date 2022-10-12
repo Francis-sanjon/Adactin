@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "username": "Francis3535",
+      "password": "Francis@123",
+      "Location": "Sydney",
+      "Hotels": "Hotel Creek",
+      "RoomType": "Standard",
+      "Number_of_rooms": "1 - One",
+      "Check_in_Date": "26/09/2022",
+      "Check_out_Date": "27/09/2022",
+      "Adults_per_room": "1 - One",
+      "Childres_per_room": "1 - One",
+      "First_Name": "john",
+      "Last_Name": "smith",
+      "Billing_Address": "chennai",
+      "Credit_Card_No": 1234567890123450,
+      "Credit_Card_type": "VISA",
+      "Expiry_Month": "May",
+      "Expiry_Year": 2022,
+      "Cvv_Number": 111,
+      "Email_Address": "Francis@gmail.com",
+      "Invalid_username": "Francis2525",
+      "Invalid_password": "Francis*123"
+    }
+  ]
+}
