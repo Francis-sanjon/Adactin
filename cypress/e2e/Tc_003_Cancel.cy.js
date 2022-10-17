@@ -18,6 +18,7 @@ describe('Canceling bookings', () => {
     })
     Then('User clicks cancel booked', () => {
         c.cancelBk()
+        cy.screenshot()
     })
 
 })

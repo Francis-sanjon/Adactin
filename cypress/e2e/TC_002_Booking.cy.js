@@ -93,6 +93,7 @@ describe('Booking Hotel Room', () => {
     cy.get('#order_no').then(($d) => {
       const val = $d.val()
       cy.log(val)
+      cy.screenshot()
     })
   })
   

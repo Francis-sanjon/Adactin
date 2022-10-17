@@ -21,6 +21,7 @@ describe('', () => {
   })
   Then('User able to Adactin Homepage', () => {
     cy.title().should('eq', 'Adactin.com - Search Hotel')
+    cy.screenshot()
   })
   When('User enters invalid Username and valid password', () => {
     cy.fixture('xlsxData').then((data) => {
@@ -30,6 +31,7 @@ describe('', () => {
   })
   Then('User unable to Adactin Homepage', () => {
     cy.title().should('not.eq', 'Adactin.com - Search Hotel')
+    cy.screenshot()
   })
   When('User enters valid Username and invalid password', () => {
     cy.fixture('xlsxData').then((data) => {

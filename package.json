@@ -41,8 +41,8 @@
   },
   "scripts": {
     "test": "cypress run --config pageLoadTimeout=10000",
-    "html:report": "node cucumber-html-reports.js",
-    "mochawesome:report":"npx cypress run --reporter mochawesome"
+    "html:report": "node cucumber-html-reports.js"
+    
 
   },
   "name": "adactin",
