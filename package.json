@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cypress": "^10.9.0",
+    "cypress-parallel": "^0.1.8",
     "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
@@ -41,9 +42,10 @@
   },
   "scripts": {
     "test": "cypress run --config pageLoadTimeout=10000",
-    "html:report": "node cucumber-html-reports.js"
-    
-
+    "cross:browser": "cypress run --config pageLoadTimeout=10000 && npx cypress run --browser chrome && npx cypress run --browser edge",
+    "cucumber": "node cucumber-html-reports.js",
+    "cy:run": "cypress run --browser edge",
+    "cy:parallel": "cypress-parallel -s cy:run -t 2 -d .\\cypress\\e2e "
   },
   "name": "adactin",
   "version": "1.0.0",
